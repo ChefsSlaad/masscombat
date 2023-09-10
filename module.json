@@ -22,19 +22,19 @@
       {
       "name": "Masscombat Rules",
       "label": "Masscombat rules",
-      "path": "/packs/journals.db",
+      "path": "packs/journals.db",
       "type": "JournalEntry"
     },
     {
       "name": "units",
       "label": "units",
-      "path": "/packs/actors.db",
+      "path": "packs/actors.db",
       "type": "Actor",
       "system": "pf1"
     },
     { "name": "maneuvers",
       "label": "maneuvers",
-      "path": "/packs/items.db",
+      "path": "packs/items.db",
       "type": "Item",
       "system": "pf1"
     }
