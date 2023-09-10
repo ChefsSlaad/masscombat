@@ -1,0 +1,101 @@
+div.app.sheet.actor div.tab.masscombat div.actions {
+    height: 70%;
+}
+
+div.app.sheet.actor div.tab.masscombat div.masscombatTable div.pseudo-table.bordered {
+    border:             1px solid var(--color-border-dark-5);
+    align-content:      center;
+    flex:               0;
+}
+
+div.app.sheet.actor div.tab.masscombat  div.masscombatTable h3.header {
+    text-align:         center;
+    line-height:        1.5;
+    color:              var(--color-text-light-1);
+    background-color:   rgb(121,121,122);
+    width:              100%;
+    margin:             0px;
+}
+
+
+div.app.sheet.actor div.tab.masscombat  div.masscombatTable h4.sub-header {
+    text-align:         center;
+    line-height:         1.2;
+    border-bottom:      1px solid var(--color-border-light-3);
+    background-color:   rgb(180,180,180);
+    box-sizing:         border-box;
+    height:             20px;
+    width:              100%;
+    padding:            2px 0px;
+    margin:             0px;
+
+
+}
+
+div.app.sheet.actor div.tab.masscombat  div.masscombatTable span  {
+    text-align:     center;
+}
+
+div.app.sheet.actor div.tab.masscombat  div.masscombatTable div.text-box  {
+    height:         26px;
+    text-align:     center;
+    vertical-align: middle;
+    line-height:    2em;
+}
+
+
+
+div.app.sheet.actor div.tab.masscombat  div.masscombatTable ul.flexrow {
+    padding:            0px;
+    margin:             0px;
+}
+
+div.app.sheet.actor div.tab.masscombat  div.masscombatTable li.flexcol {
+    padding:            0px;
+    margin:             0px;
+}
+
+
+div.app.sheet.actor div.tab.masscombat div.troopSizeSection {
+    min-width:          150px;
+}
+
+div.app.sheet.actor div.tab.masscombat div.strengthRow {
+    min-width:          100px;
+}
+
+div.app.sheet.actor div.tab.masscombat div.commandRow.pseudo-table {
+    min-width:          300px;
+}
+
+div.app.sheet.actor div.tab.masscombat div.acRow.pseudo-table {
+    min-width:          75px;
+}
+
+div.app.sheet.actor div.tab.masscombat div.powerRow.pseudo-table {
+    min-width:          75px;
+}
+
+
+div.app.sheet.actor div.tab.masscombat div.casualties {
+    min-width:          140px;
+}
+
+div.app.sheet.actor div.tab.masscombat div.restgroup.pseudo-table {
+    width:              100%;
+    border:             0px none;
+}
+
+button.replaceCasualties{
+    width:              138px;
+    min-height:         3.3em;
+
+}
+
+div.app.sheet.actor div.tab.masscombat div.item-controls, div.item-detail {
+    justify-content:    space-evenly;
+}
+
+div.app.sheet.actor div.tab.masscombat div.spacer {
+    height:              32px;
+}
