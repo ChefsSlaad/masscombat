@@ -15,7 +15,7 @@ Hooks.on('renderActorSheetPFNPC', (app, html, context) => {
 
 async function updateActor(actor, data) {
     //handle changing any of the masscombat stats
-    troopData = getAllTroopData(actor);
+    const troopData = getAllTroopData(actor);
     if ('flags.masscombat.strength' in data) {
         let strength = troopData.strength
         let str =  data['flags.masscombat.strength']*1 // convert string to number
