@@ -1,0 +1,106 @@
+   <div class="flexrow masscombatTable">
+      <div class="troopSizeSection pseudo-table bordered">
+        <h3 class="header"><i class="fa-solid fa-people-group"></i> Troop Size</h3>
+        <ul class="flexrow">
+          <li class="flexcol">
+            <h4 class="sub-header">Current</h4>
+            <span>
+              <input class="text-box direct currentSize" name="currentSize" value=100 type="text" data-dtype="Number">
+            </span>
+            </li>
+          <li class="flexcol">
+            <h4 class="sub-header">Max</h4>
+              <span>
+                <input class="text-box maxSize" name="flags.masscombat.maxSize" value=100 type="text" data-dtype="Number">
+              </span>
+           </li>
+         </ul>
+      </div>
+      <div class="strengthRow pseudo-table bordered">
+        <h3 class="header"><i class="fa-solid fa-helmet-battle"></i> Strength</h3>
+        <ul class="flexrow">
+          <li class="flexcol">
+            <h4 class="sub-header">Current</h4>
+             <span>
+                <input class="text-box direct strength" name="flags.masscombat.strength" value=0 type="text" data-dtype="Number">
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="restgroup pseudo-table">
+        <ul class="flexrow">
+          <li class="flexcol">
+          </li>
+        </ul>
+    </div>
+      <div class="casualties pseudo-table bordered">
+        <ul class="flexrow">
+          <li class="flexcol">
+          <h3 class="header"><i class="fa-solid fa-tents"></i>Make Camp</h3>
+          <span>
+            <button type="button" class="replaceCasualties">Replace casualties</button>
+          </span>
+          </li>
+        </ul>
+      </div>
+   </div>
+
+   <div class="flexrow masscombatTable">
+      <div class="commandRow pseudo-table bordered">
+        <h3 class="header"><i class="fa-solid fa-flag"></i> Command</h3>
+        <ul class="flexrow">
+          <li class="flexcol ">
+            <h4 class="sub-header discipline">Discipline</h4>
+            <span>
+               <input class="text-box direct discipline" name="flags.masscombat.discipline" value=0 type="text" data-dtype="Number">
+            </span>
+          </li>
+
+          <li class="flexcol ">
+            <h4 class="sub-header roll-morale">Leadership</h4>
+            <span>
+              <input class="text-box direct leadership" name="flags.masscombat.leadership" value=0 type="text" data-dtype="Number">
+            </span>
+          </li>
+
+          <li class="flexcol">
+            <h4 class="sub-header rollable roll-discipline" data-tooltip="roll discipline"><i class="fas fa-dice"></i> Disc. roll</h4>
+            <span>
+              <div class="text-box disciplineRoll" name="disciplineRoll" type="text" data-dtype="Number"></div>
+            </span>
+          </li>
+
+          <li class="flexcol">
+            <h4 class="sub-header rollable roll-morale" data-tooltip="morale roll"><i class="fas fa-dice"></i> Morale</h4>
+            <span>
+              <div class="text-box morale" name="morale" type="text" data-dtype="Number"></div>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="restgroup pseudo-table">
+        <ul class="flexrow">
+          <li class="flexcol">
+          </li>
+        </ul>
+      </div>
+   </div>
+
+   <div class="flexrow masscombatTable">
+    <div class="powerRow pseudo-table bordered">
+      <h3 class="header"><i class="fa-solid fa-sword"></i> Power</h3>
+      <ul class="flexrow">
+        <li class="flexcol">
+          <span class="text-box power" name="power" data-dtype="Number"></span>
+        </li>
+      </ul>
+    </div>
+    <div class="acRow pseudo-table bordered">
+      <h3 class="header"><i class="fa-solid fa-shield"></i> AC</h3>
+      <ul class="flexrow">
+        <li class="flexcol">
+          <span class="text-box armorClass" name="amorClass" data-dtype="Number"></span>
+        </li>
+      </ul>
+    </div>
+   </div>
