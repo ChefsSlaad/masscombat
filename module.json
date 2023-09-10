@@ -9,7 +9,6 @@
   ],
 
   "esmodules": [
-    "module/masscombat.js",
     "module/hitboxRotation.js",
     "module/attacksAndManeuvers.js",
     "module/actorControl.js"
