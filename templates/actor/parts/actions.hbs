@@ -1,0 +1,43 @@
+ 
+   <ol class="item-list" data-type="weapon" data-subtype="">
+      <li class="item item-list-header flexrow items-weapon">
+        <div class="flexrow">
+          <h3 class="item-name flexrow">Actions</h3>
+          <div class="item-detail item-damage">
+            <label>Damage</label>
+          </div>
+          <div class="item-detail item-actions"><i class="item-detail icon icon-gears large" title="Actions"></i></div>
+          <div class="item-controls">
+            <a class="item-control"><i class="fa-solid fa-folder-plus"></i></a>
+          </div>
+        </div>
+      </li>
+              {{#each this.items}}
+                {{#if flags.masscombat.isMassCombatAction}}
+
+              <li class="item flexrow masscombat" data-item-id="{{id}}" draggable="true">
+                <div class="item-name flexrow">
+                  <div class="item-image rollable" data-tooltip="show in chat" style="background-image: url('{{img}}')">
+                  </div>
+                  <h4 class="rollable">{{name}}</h4>
+                </div>
+                <div class="item-detail item-damage tooltip">
+                  <label><span class="power"></span> + <span>{{flags.masscombat.allActionDamage}}</span></label>
+                    <span class="tooltipcontent">
+                      <span>Power: </span><span class="power"></span> + <br>
+                      <span>Weapon Damage</span>
+                      <span>{{flags.masscombat.allActionDamage}}</span>
+                  </span>
+                </div>
+                <div class="item-detail item-actions" data-tooltip="use attack">
+                    <a class="item-control item-action item-mcaction"><i class="fa-solid fa-dice-d20"></i></a>
+                </div>
+                <div class="item-controls tooltip">
+                  <a class="item-control item-edit" title="Edit Item"><i class="fas fa-edit"></i></a>
+                  <span class="tooltipcontent">edit</span>
+                 </div>
+              </li>
+            {{/if}}
+          {{/each}}
+
+  </ol>
